@@ -1,0 +1,155 @@
+commit aecd4e326ab3cc21c9b6e74da7e917159e353410
+Author: byan13 <46941918+byan13@users.noreply.github.com>
+Date:   Sun Nov 3 16:50:02 2019 -0500
+
+    Update README.md
+
+ README.md | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+
+commit 51f590a5b2cd791b6a2ae60e87816b37b39534e7
+Author: Bo Yan <byan2@binghamton.edu>
+Date:   Sun Nov 3 16:43:00 2019 -0500
+
+    Done
+
+ Multiple Screens!/.DS_Store                        | Bin 6148 -> 6148 bytes
+ .../Multiple Screens!.xcodeproj/project.pbxproj    |  12 ++
+ .../UserInterfaceState.xcuserstate                 | Bin 21329 -> 35566 bytes
+ .../xcdebugger/Breakpoints_v2.xcbkptlist           |  56 +++++++++
+ Multiple Screens!/Multiple Screens!/.DS_Store      | Bin 0 -> 6148 bytes
+ .../Multiple Screens!/Assets.xcassets/.DS_Store    | Bin 0 -> 6148 bytes
+ .../defaultPhoto.imageset/Contents.json            |  21 ++++
+ .../defaultPhoto.imageset/defaultPhoto.png         | Bin 0 -> 15452 bytes
+ .../samplePhoto.imageset/Contents.json             |  21 ++++
+ .../samplePhoto.imageset/samplePhoto.png           | Bin 0 -> 362780 bytes
+ .../Multiple Screens!/Base.lproj/Main.storyboard   | 140 ++++++++++++++++++++-
+ Multiple Screens!/Multiple Screens!/Contacts.swift |  24 ++++
+ .../Multiple Screens!/ContactsTableViewCell.swift  |  27 ++++
+ .../ContactsTableViewController.swift              | 132 +++++++++++++++++++
+ .../Multiple Screens!/ViewController.swift         |  76 ++++++++++-
+ 15 files changed, 498 insertions(+), 11 deletions(-)
+
+commit 36bf184158cc5d0d4b6bdd1377ac2eba0732c0ad
+Author: Bo Yan <byan2@binghamton.edu>
+Date:   Fri Nov 1 23:27:46 2019 -0400
+
+    Update view controller
+
+ .DS_Store                                          | Bin 6148 -> 6148 bytes
+ Multiple Screens!/.DS_Store                        | Bin 0 -> 6148 bytes
+ .../UserInterfaceState.xcuserstate                 | Bin 5599 -> 21329 bytes
+ .../Multiple Screens!/Base.lproj/Main.storyboard   |  40 ++++++++++++++++++---
+ 4 files changed, 35 insertions(+), 5 deletions(-)
+
+commit 2a6b7be456031befdabb99650883cfb115911c9a
+Author: Bo Yan <byan2@binghamton.edu>
+Date:   Wed Oct 30 11:56:31 2019 -0400
+
+    Screens updated
+
+ .DS_Store                                          | Bin 6148 -> 6148 bytes
+ Multiple Screens!/.DS_Store                        | Bin 6148 -> 0 bytes
+ .../Multiple Screens!.xcodeproj/project.pbxproj    | 321 +++++++--------------
+ .../UserInterfaceState.xcuserstate                 | Bin 20819 -> 5599 bytes
+ Multiple Screens!/Multiple Screens!/Actions.sks    | Bin 1892 -> 0 bytes
+ .../Multiple Screens!/AppDelegate.swift            |  24 +-
+ .../Base.lproj/LaunchScreen.storyboard             |  25 +-
+ .../Multiple Screens!/Base.lproj/Main.storyboard   |  43 +--
+ Multiple Screens!/Multiple Screens!/GameScene.sks  | Bin 4694 -> 0 bytes
+ .../Multiple Screens!/GameScene.swift              |  89 ------
+ .../Multiple Screens!/GameViewController.swift     |  50 ----
+ Multiple Screens!/Multiple Screens!/Info.plist     |  21 +-
+ .../Multiple Screens!/SceneDelegate.swift          |  53 ++++
+ .../Multiple Screens!/ViewController.swift         |  20 ++
+ .../Multiple_Screens_Tests.swift                   |   2 +-
+ .../Multiple Screens!UITests/Info.plist            |  22 --
+ .../Multiple_Screens_UITests.swift                 |  43 ---
+ 17 files changed, 215 insertions(+), 498 deletions(-)
+
+commit 925897439766889f73869842d9df99de5b4e37a5
+Author: Bo Yan <byan2@binghamton.edu>
+Date:   Sun Oct 27 19:15:45 2019 -0400
+
+    Class added
+
+ .../byan.xcuserdatad/UserInterfaceState.xcuserstate | Bin 20728 -> 20819 bytes
+ .../Base.lproj/LaunchScreen.storyboard              |   4 ++++
+ 2 files changed, 4 insertions(+)
+
+commit 6b1d229f13ef56f2bf70791c27f72527c3e511af
+Author: Bo Yan <byan2@binghamton.edu>
+Date:   Fri Oct 25 21:01:27 2019 -0400
+
+    Update UI
+
+ .../UserInterfaceState.xcuserstate                 | Bin 18638 -> 20728 bytes
+ .../Base.lproj/LaunchScreen.storyboard             |  21 ++++++++++++++++-----
+ 2 files changed, 16 insertions(+), 5 deletions(-)
+
+commit 99e0e0113fe7fd262992c35eb94d51809cc8266b
+Author: Bo Yan <byan2@binghamton.edu>
+Date:   Wed Oct 23 09:44:07 2019 -0400
+
+    Updated code
+
+ Multiple Screens!/.DS_Store                         | Bin 0 -> 6148 bytes
+ .../byan.xcuserdatad/UserInterfaceState.xcuserstate | Bin 18431 -> 18638 bytes
+ .../Multiple Screens!/Base.lproj/Main.storyboard    |   8 ++++++++
+ 3 files changed, 8 insertions(+)
+
+commit 85fccb4ed6ea33830f8dd63989e13f0f2cf809b5
+Author: Bo Yan <byan2@binghamton.edu>
+Date:   Sun Oct 20 19:17:07 2019 -0400
+
+    gvc update
+
+ .DS_Store                                          | Bin 0 -> 6148 bytes
+ .../UserInterfaceState.xcuserstate                 | Bin 5599 -> 18431 bytes
+ .../Multiple Screens!/Base.lproj/Main.storyboard   |  25 ++++++++++++++++-----
+ 3 files changed, 20 insertions(+), 5 deletions(-)
+
+commit 80ef2313543efbd9aa9d790d993a47150f111b52
+Author: Bo Yan <byan2@binghamton.edu>
+Date:   Fri Oct 18 09:41:27 2019 -0400
+
+    Project created
+
+ .../Multiple Screens!.xcodeproj/project.pbxproj    | 597 +++++++++++++++++++++
+ .../project.xcworkspace/contents.xcworkspacedata   |   7 +
+ .../xcshareddata/IDEWorkspaceChecks.plist          |   8 +
+ .../UserInterfaceState.xcuserstate                 | Bin 0 -> 5599 bytes
+ .../xcschemes/xcschememanagement.plist             |  14 +
+ Multiple Screens!/Multiple Screens!/Actions.sks    | Bin 0 -> 1892 bytes
+ .../Multiple Screens!/AppDelegate.swift            |  41 ++
+ .../AppIcon.appiconset/Contents.json               |  98 ++++
+ .../Assets.xcassets/Contents.json                  |   6 +
+ .../Base.lproj/LaunchScreen.storyboard             |  25 +
+ .../Multiple Screens!/Base.lproj/Main.storyboard   |  24 +
+ Multiple Screens!/Multiple Screens!/GameScene.sks  | Bin 0 -> 4694 bytes
+ .../Multiple Screens!/GameScene.swift              |  89 +++
+ .../Multiple Screens!/GameViewController.swift     |  50 ++
+ Multiple Screens!/Multiple Screens!/Info.plist     |  47 ++
+ .../Multiple Screens!Tests/Info.plist              |  22 +
+ .../Multiple_Screens_Tests.swift                   |  34 ++
+ .../Multiple Screens!UITests/Info.plist            |  22 +
+ .../Multiple_Screens_UITests.swift                 |  43 ++
+ 19 files changed, 1127 insertions(+)
+
+commit a52d163912673080ad711dcad4cd87e97e9ba6f7
+Author: byan13 <46941918+byan13@users.noreply.github.com>
+Date:   Wed Oct 16 10:27:03 2019 -0400
+
+    Update README.md
+
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit ee3e0c369ea686f712c73326dc165221d7d694d1
+Author: byan13 <46941918+byan13@users.noreply.github.com>
+Date:   Wed Oct 16 10:25:37 2019 -0400
+
+    Initial commit
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
